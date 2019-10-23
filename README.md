@@ -4,9 +4,9 @@
 
 - `$ npm config set proxy http://[user]:[password]@[proxy]:[port]`
 
-- `$ npm config set https-proxy https://[user]:[password]@[proxy]:[port]`
+ `$ npm config set http-proxy http://[user]:[password]@[proxy]:[port]`
 
-Caso não funcione:
+- `$ npm config set https-proxy http://[user]:[password]@[proxy]:[port]`
 
 - `$ npm config set registry http://registry.npmjs.org/`
 
@@ -14,8 +14,9 @@ Caso não funcione:
 
 Arquivo .npmrc (exemplo):
 
+    proxy=http://[user]:[password]@[proxy]:[port]
     http-proxy=http://[user]:[password]@[proxy]:[port]
-    https-proxy=https://[user]:[password]@[proxy]:[port]
+    https-proxy=http://[user]:[password]@[proxy]:[port]
 	registry=http://registry.npmjs.org
     strict-ssl=false
 
