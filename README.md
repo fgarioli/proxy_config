@@ -4,7 +4,7 @@
 
 - `$ npm config set proxy http://[user]:[password]@[proxy]:[port]`
 
- `$ npm config set http-proxy http://[user]:[password]@[proxy]:[port]`
+- `$ npm config set http-proxy http://[user]:[password]@[proxy]:[port]`
 
 - `$ npm config set https-proxy http://[user]:[password]@[proxy]:[port]`
 
