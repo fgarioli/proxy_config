@@ -1,6 +1,6 @@
 # Configuração de Proxy
 
-**Caso prefira, basta copiar os arquivos exemplo do repositório e coloar no dirtório do usuário, apenas substituindo as informações necessárias**
+**Caso prefira, basta copiar os arquivos exemplo do repositório e colar no diretório do usuário, apenas substituindo as informações necessárias.**
 
 ### npm
 
