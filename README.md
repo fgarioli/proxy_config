@@ -1,5 +1,7 @@
 # Configuração de Proxy
 
+**Caso prefira, basta copiar os arquivos exemplo do repositório e coloar no dirtório do usuário, apenas substituindo as informações necessárias**
+
 ### npm
 
 - `$ npm config set proxy http://[user]:[password]@[proxy]:[port]`
@@ -29,8 +31,8 @@ Arquivo .npmrc (exemplo):
 Arquivo .gitconfig (exemplo):
 #### 
     [user]
-        name = Fernando Garioli
-        email = f.ribeirogarioli@gmail.com
+        name = Nome do Usuário
+        email = emaildousuario@exemplo.com.br
     [http]
         proxy = http://[usuario]@[proxy]:[port]
     [https]

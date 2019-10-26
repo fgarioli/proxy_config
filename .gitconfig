@@ -1,0 +1,10 @@
+[user]
+    name = Nome do Usuário
+    email = emaildousuario@exemplo.com.br
+[http]
+    proxy = http://[usuario]@[proxy]:[port]
+[https]
+    sslVerify = false
+    proxy = https://[usuario]@[proxy]:[port]
+[credential]
+    helper = wincred
