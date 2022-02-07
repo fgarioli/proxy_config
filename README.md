@@ -26,7 +26,7 @@ Arquivo .npmrc (exemplo):
 
 - `$ git config --global http.proxy http://[user]@[proxy]:[port]`
 
-- `$ git config --global credential.helper wincred`
+- `$ git config --global credential.helper manager`
 
 Arquivo .gitconfig (exemplo):
 #### 
@@ -39,6 +39,6 @@ Arquivo .gitconfig (exemplo):
         sslVerify = false
         proxy = https://[usuario]@[proxy]:[port]
     [credential]
-        helper = wincred
+        helper = manager
 
 **Obs.: ambos os arquivos ficam no diretório do usuário.**
