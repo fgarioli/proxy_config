@@ -7,4 +7,4 @@
     sslVerify = false
     proxy = https://[usuario]@[proxy]:[port]
 [credential]
-    helper = wincred
+    helper = manager
